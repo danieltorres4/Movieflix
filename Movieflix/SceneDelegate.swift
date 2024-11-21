@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Movieflix
 //
-//  Created by Iván Sánchez Torres on 20/11/24.
+//  Created by Daniel ST on 20/11/24.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = ViewController()
+        window?.rootViewController = MainTabBarViewController()
         window?.makeKeyAndVisible()
     }
 

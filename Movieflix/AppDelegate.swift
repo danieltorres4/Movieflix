@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Movieflix
 //
-//  Created by Iván Sánchez Torres on 20/11/24.
+//  Created by Daniel ST on 20/11/24.
 //
 
 import UIKit
